@@ -1,0 +1,19 @@
+{
+	// Place your cfg workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	"Toggle": {
+		"scope": "CSGO cfg",
+		"prefix": "toggle",
+		"body": [
+			"alias ${1:label}_toggle ${1:label}_on",
+			"alias ${1:label}_on \"${2:convar} 1; alias ${1:label}_toggle ${1:label}_off; say ${1:label} on\"",
+			"alias ${1:label}_off \"${2:convar} 0; alias ${1:label}_toggle ${1:label}_on; say ${1:label} off\""
+		],
+		"description": "toggle some var"
+	}
+}
