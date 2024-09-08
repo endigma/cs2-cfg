@@ -7,7 +7,7 @@
 	// Placeholders with the same ids are connected.
 	// Example:
 	"Toggle": {
-		"scope": "CSGO cfg",
+		"scope": "cfg",
 		"prefix": "toggle",
 		"body": [
 			"alias ${1:label}_toggle ${1:label}_on",
