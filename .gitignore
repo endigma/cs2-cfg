@@ -3,3 +3,4 @@ gamemode*
 perftest.cfg
 server_default.cfg
 server.cfg
+devonly
